@@ -9,3 +9,5 @@
 7. Readability counts.
 8.
 9. Although practicality beats purity.
+...
+13. There should be one — and preferably only one — obvious way to do it.
