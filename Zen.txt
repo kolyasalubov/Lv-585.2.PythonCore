@@ -1,4 +1,4 @@
-"Zen of Python"
+﻿"Zen of Python"
 
 1.
 2.
@@ -11,3 +11,4 @@
 9. Although practicality beats purity.
 ...
 13. There should be one — and preferably only one — obvious way to do it.
+15. Now is better than never.
