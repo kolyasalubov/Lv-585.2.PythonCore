@@ -8,4 +8,3 @@ def Dobutok():
         n1 = n1 // 10
     print(suma)
 Dobutok()
-
