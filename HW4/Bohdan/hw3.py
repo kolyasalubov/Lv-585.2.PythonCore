@@ -1,7 +1,5 @@
 fib_list = [0, 1, 1]
-
 user_number = int(input('Enter Fibonacci number:\n>>>'))
-# user_number = int(568)
 
 
 def fibonacci_list():
