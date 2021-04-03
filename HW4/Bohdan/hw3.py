@@ -19,6 +19,6 @@ if user_number < 0:
     print('Fibonacci numbers => 0')
 elif user_number == 0:
     fib_list = [0]
-    print(fib_list)
+    print(f'\nFibonacci numbers up to {user_number} :\n {fib_list}')
 else:
     fibonacci_list()
