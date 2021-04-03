@@ -1,7 +1,7 @@
 # Задано чотирицифрове натуральне число.
-# print("Enter a number between 0000 and 9999:")
-# number = int(input())
-number = 1234
+print("Enter a number between 0000 and 9999:")
+number = int(input())
+# number = 1934
 print(
     "My number is:",
     number,
@@ -12,28 +12,26 @@ print(
 # Знайти добуток цифр цього числа.
 numberToStr = str(number)
 strToMap = map(int, numberToStr)
-sumOfNumber = list(strToMap)
+intToList = list(strToMap)
+sumOfNumber = 0
+for i in intToList:
+    sumOfNumber += i
 print(
-    "Number → list:",
+    "Number → n+u+m+b+e+r:",
     sumOfNumber,
     sep="\n",
     end="\n\n"
 )
 
 # - Записати число в реверсному порядку.
-sumOfNumber.sort(reverse=True)
+intReversed = int("".join(reversed(str(number))))
 print(
     "List → tsiL:",
-    sumOfNumber,
+    intReversed,
     sep="\n",
     end="\n\n"
 )
 
 # - Посортувати цифри, що входять в дане число
-sumOfNumber.sort()
-print(
-    "tsiL → List:",
-    sumOfNumber,
-    sep="\n",
-    end="\n\n"
-)
+intToList.sort()
+print("tsiL → List:", intToList, sep="\n", end="\n\n")
