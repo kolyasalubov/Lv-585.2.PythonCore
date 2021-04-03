@@ -12,7 +12,7 @@ def fibonacci_list():
         if user_number < number:
             break
         fib_list.append(number)
-    print(fib_list)
+    print(f'\nFibonacci numbers up to {user_number} :\n {fib_list}')
 
 
 if user_number < 0:
