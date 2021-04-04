@@ -56,10 +56,14 @@ def other_numbers():
 
 
 def go():
+    """
+    start program
+    """
     to_generate_list(first_number, last_number)
     sampling_even_numbers()
     sampling_odd_numbers()
     other_numbers()
+
     print(f'list numbers\n{list_numbers}')
     print(f'list of even numbers that are divisible by 2\n{list_even_numbers}')
     print(f'list of odd numbers, which are divisible by 3\n{list_odd_numbers}')
