@@ -19,40 +19,37 @@ def to_generate_list(start, stop):
     return list_numbers
 
 
-def sampling_even_numbers(start, stop):
+def sampling_even_numbers():
     """
     a sample of even numbers that are divisible by 2
-    :param start: int , first number list
-    :param stop: int, last number list
+    :input: list_numbers
     :return: number list
     """
-    for i in range(start, stop + 1, 1):
+    for i in list_numbers:
         if i % 2 == 0:
             list_even_numbers.append(i)
     return list_even_numbers
 
 
-def sampling_odd_numbers(start, stop):
+def sampling_odd_numbers():
     """
     a sample of odd numbers, which are divisible by 3
-    :param start: int , first number list
-    :param stop: int, last number list
+    :input: list_numbers
     :return: number list
     """
-    for i in range(start, stop + 1, 1):
+    for i in list_numbers:
         if i % 3 == 0:
             list_odd_numbers.append(i)
     return list_odd_numbers
 
 
-def other_numbers(start, stop):
+def other_numbers():
     """
        a sample of numbers that are not divisible by 2 and 3
-       :param start: int , first number list
-       :param stop: int, last number list
+       :input:list_numbers
        :return: number list
        """
-    for i in range(start, stop + 1):
+    for i in list_numbers:
         if i % 2 != 0 and i % 3 != 0:
             list_other_numbers.append(i)
     return list_other_numbers
@@ -60,9 +57,9 @@ def other_numbers(start, stop):
 
 def go():
     to_generate_list(first_number, last_number)
-    sampling_even_numbers(first_number, last_number)
-    sampling_odd_numbers(first_number, last_number)
-    other_numbers(first_number, last_number)
+    sampling_even_numbers()
+    sampling_odd_numbers()
+    other_numbers()
 
 
 if first_number > last_number:
