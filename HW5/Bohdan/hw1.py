@@ -60,14 +60,13 @@ def go():
     sampling_even_numbers()
     sampling_odd_numbers()
     other_numbers()
+    print(f'list numbers\n{list_numbers}')
+    print(f'list of even numbers that are divisible by 2\n{list_even_numbers}')
+    print(f'list of odd numbers, which are divisible by 3\n{list_odd_numbers}')
+    print(f'list other numbers that are not divisible by 2 and 3\n{list_other_numbers}')
 
 
 if first_number > last_number:
     first_number, last_number = last_number, first_number
-
-go()
-
-print(f'list numbers\n{list_numbers}')
-print(f'list of even numbers that are divisible by 2\n{list_even_numbers}')
-print(f'list of odd numbers, which are divisible by 3\n{list_odd_numbers}')
-print(f'list other numbers that are not divisible by 2 and 3\n{list_other_numbers}')
+else:
+    go()
