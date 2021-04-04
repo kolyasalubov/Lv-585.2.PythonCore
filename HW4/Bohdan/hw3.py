@@ -3,6 +3,11 @@ user_number = int(input('Enter Fibonacci number:\n>>>'))
 
 
 def fibonacci_list():
+    """
+    This function generate Fibonacci numbers up to user number
+    Input : int
+    Output: list of Fibonacci numbers
+    """
     i = 2
     while user_number > int(fib_list[i]):
         i += 1
@@ -20,3 +25,4 @@ elif user_number == 0:
     print(f'\nFibonacci numbers up to {user_number} :\n {fib_list}')
 else:
     fibonacci_list()
+
