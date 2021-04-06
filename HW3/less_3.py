@@ -29,7 +29,6 @@ menu_congig = {
     
 }
 
-
 string = ("Zen of Python: \n"
 "Beautiful is better than ugly. \n"
 "Explicit is better than implicit. \n"
@@ -51,62 +50,71 @@ string = ("Zen of Python: \n"
 "If the implementation is easy to explain, it may be a good idea. \n"
 "Namespaces are one honking great idea -- let's do more of those!")
 
-# def MenuInput
-#     menu = int(input('aaa'))
-#     menu2 = int(input('\t1. better;\n\t2. never;\n\t3. is;\n\t4. назад;\n\t5. вихід;\n\t###:'))
-# MenuInput
+def MenuInput():
+    # print(menu_congig['menu1'])
+    menu = int(input("input number ### "))
+    # if menu == 2:
+    #     print(menu_congig['menu2'])
+    #     menu2 = int(input("input number ### ")
+    if menu == menu_congig['menu1'][3]:
+        print("Замінити всі входження символу “і” на “&”")
+    else:
+        pass
 
-# menu2 = int(input('\t1. better;\n\t2. never;\n\t3. is;\n\t4. назад;\n\t5. вихід;\n\t###:'))
+MenuInput()
+
 
 # menu3 = input('вибрати смивол який змінити', "вибрати символ на який змінити")
 
 
 
-def MenuGo():
-    menu = True
-    if menu == "1":
-        print(string)
-        return menu
-    elif menu == "2":
-        print(menu2)
-    elif menu == "3":
-        print(UpperString)
-        return menu
-    elif menu == "4":
-        print(ReplaceLetter)
-        return menu
-    elif menu == "5":
-        pass
-MenuGo()
-
-def ChouseWords():
-    better = string.count('better')+1
-    never = string.count('never')+1
-    countIs = string.count('is')+1
-
-    if menu1 == 1:
-        print(better)
-    elif menu1 == 2:
-        print(never)
-    elif menu1 == 3:
-        print(countIs)
-    elif menu1 == 4:
-        print(menu)
-    elif menu1 == 5:
-        pass
-ChouseWords()
+# def MenuGo():
+#     menu = True
+#     if menu == "1":
+#         print(string)
+#         return menu
+#     elif menu == "2":
+#         print(menu2)
+#     elif menu == "3":
+#         print(UpperString)
+#         return menu
+#     elif menu == "4":
+#         print(ReplaceLetter)
+#         return menu
+#     elif menu == "5":
+#         pass
 
 
+# def ChouseWords():
+#     better = string.count('better')+1
+#     never = string.count('never')+1
+#     countIs = string.count('is')+1
 
-def ReplaceLetter():
-    replaseI = string.replace("i", "&")
-    if menu == 4:
-        print(replaseI)
-ReplaceLetter()
+#     if menu1 == 1:
+#         print(better)
+#     elif menu1 == 2:
+#         print(never)
+#     elif menu1 == 3:
+#         print(countIs)
+#     elif menu1 == 4:
+#         print(menu)
+#     elif menu1 == 5:
+#         pass
 
 
-def UpperString():
-    uperStr = string.upper()
-    if menu == 3:
-        print(uperStr)
-UpperString()
+
+
+# def ReplaceLetter():
+#     replaseI = string.replace("i", "&")
+#     if menu == 4:
+#         print(replaseI)
+#     else:
+#         pass
+
+
+# def UpperString():
+#     uperStr = string.upper()
+#     if menu == 3:
+#         print(uperStr)
+#     else:
+#         pass
