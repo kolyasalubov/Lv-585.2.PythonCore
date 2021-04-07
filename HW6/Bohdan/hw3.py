@@ -3,7 +3,9 @@ user_str = input('Enter string\n>>>')
 
 def calculate_included(st):
     """
-    function that calculates the number of characters included in a given string
+    function that calculates
+    the number of characters
+    included in a given string
 
     :param st: user string
     :return: dict
