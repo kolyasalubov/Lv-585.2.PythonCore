@@ -6,7 +6,6 @@ def search_of_great_value(num1, num2):
     """
     The function selects and return
      a large from two numbers
-
     :param num1: float
     :param num2: float
     :return: float
