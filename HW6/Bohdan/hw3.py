@@ -16,4 +16,3 @@ def calculate_included(st):
 
 
 print(calculate_included(user_str))
-
