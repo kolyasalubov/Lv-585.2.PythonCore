@@ -29,7 +29,7 @@ menu_congig = {
     
 }
 
-print(menu_congig[menu1][1])
+
 
 string = ("Zen of Python: \n"
 "Beautiful is better than ugly. \n"
@@ -52,13 +52,15 @@ string = ("Zen of Python: \n"
 "If the implementation is easy to explain, it may be a good idea. \n"
 "Namespaces are one honking great idea -- let's do more of those!")
 
+
+
 def ChouseWords():
     print(menu_congig['menu2'])
-    menu2 = int(input("input number ### ")
+    menu2 = int(input("input number ### "))
     better = string.count('better')+1
     never = string.count('never')+1
     countIs = string.count('is')+1
-    
+
     if menu2 == 1:
         print(better)
     elif menu2 == 2:
@@ -77,7 +79,7 @@ def UpperString():
 
 def ReplaceLetter():
     replaseI = string.replace("i", "&")     #Зробити меню для вибору символу який замінити, і символ який замінити
-    print(ReplaceLetter)
+    print(replaseI)
 
 def MenuInput():
     print(menu_congig['menu1'])
@@ -85,7 +87,7 @@ def MenuInput():
     if menu == 1:
         print(string)
     elif menu == 2:    
-        ChouseWords():
+        ChouseWords()
     elif menu == 3:
         UpperString()
     elif menu == 4:
