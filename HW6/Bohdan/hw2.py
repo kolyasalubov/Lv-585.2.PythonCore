@@ -46,7 +46,7 @@ def menu():
     """
     choice = int(input('1 - calculating the area of a rectangle,\n'
                        '2 -  calculating the area of a triangle\n'
-                       '3 -  calculating the area of a triangle\n'
+                       '3 -  calculating the area of a circle\n'
                        'Enter menu item\n>>> '))
 
     if choice == 1:
