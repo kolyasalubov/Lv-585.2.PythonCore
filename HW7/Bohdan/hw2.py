@@ -89,6 +89,7 @@ print('Password must have:\n'
       'At least 1 number between [0-9].\n'
       'At least 1 character from [$, #,@].\n'
       'Minimum length 6 characters.\n'
-      'Maximum length 16characters.')
+      'Maximum length 16characters.\n'
+      '_____________________________')
 
 print(f'{start()} - good password')
