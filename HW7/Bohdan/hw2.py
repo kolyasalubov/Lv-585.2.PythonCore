@@ -84,7 +84,8 @@ def start():
     return user_password
 
 
-print('At least 1 letter between [a-z] and 1 letter between [A-Z].\n'
+print('Password must have:\n'
+      'At least 1 letter between [a-z] and 1 letter between [A-Z].\n'
       'At least 1 number between [0-9].\n'
       'At least 1 character from [$, #,@].\n'
       'Minimum length 6 characters.\n'
