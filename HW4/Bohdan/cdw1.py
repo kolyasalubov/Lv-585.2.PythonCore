@@ -1,2 +1,2 @@
-def create_phone_number(nums):
+def number_to_string(num):
     return str(num)
