@@ -1,0 +1,7 @@
+user_number_a = int(input('Please, enter number "a": '))
+user_number_b = int(input('Please, enter number "b": '))
+print('a + b =', user_number_a + user_number_b)
+print('a - b =', user_number_a - user_number_b)
+print('a * b =', user_number_a * user_number_b)
+print('a / b =', user_number_a / user_number_b)
+print('a ** b =', user_number_a ** user_number_b)
