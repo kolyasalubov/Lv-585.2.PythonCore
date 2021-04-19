@@ -9,8 +9,8 @@ class Human:
         return 'Homosapiens'
 
     @staticmethod
-    def static_met():
-        return print('laziness turned a monkey into a human')
+    def static_met(cls):
+        return print('laziness turned a monkey into a human'), cls
 
 
 Human(input('Enter your name\n >>>')).greetings()
